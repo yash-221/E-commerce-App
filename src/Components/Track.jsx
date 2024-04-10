@@ -3,7 +3,7 @@ import React from 'react';
 const Track = () => {
     return (
         <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-            {/* Left side */}
+        
             <div style={{ flex: 1, backgroundColor: '#f5ebf1', padding: '20px', borderRadius: '5px', marginRight: '10px'}}>
             <svg
     className="text-pink-600 w-12 h-12 mb-3 inline-block mx-auto" // Added mx-auto class for horizontal centering
@@ -11,8 +11,8 @@ const Track = () => {
     fill="none"
     viewBox="0 0 24 24"
     strokeWidth={1.5}
-    stroke="#f131a1" // Change stroke color to #f131a1
-    height="50px" // Set height to 50px
+    stroke="#f131a1" 
+    height="50px" 
     width="390px" // Set width to 50px
 >
     <path

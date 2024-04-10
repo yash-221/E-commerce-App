@@ -38,7 +38,7 @@ const Home = () => {
     useEffect(() => {
         const interval = setInterval(() => {
             setCurrentBannerIndex((prevIndex) => (prevIndex === banners.length - 1 ? 0 : prevIndex + 1));
-        }, 5000); // Change the interval time as needed (in milliseconds)
+        }, 3000); // Change the interval time as needed (in milliseconds)
 
         return () => clearInterval(interval);
     }, [banners]);
